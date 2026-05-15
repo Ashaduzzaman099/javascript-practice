@@ -7,9 +7,7 @@ async function getData() {
 
     const data = await response.json()
 
-    data.map(user => {
-      console.log(user.name);
-    })
+    console.log(data)
 
   } catch(error) {
 
