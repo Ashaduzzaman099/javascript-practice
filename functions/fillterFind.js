@@ -19,5 +19,4 @@ const users = [
 const user = users.find((u) => {
   return u.id === 2;
 });
-
 console.log(user);
