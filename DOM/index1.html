@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list"></ul>
+    <script>
+        const h1 = document.createElement("h1")
+        h1.innerText="Hello Ashik"
+        document.body.appendChild(h1)
+
+        const fruits = ["Apple", "Mango"]
+        const list = document.getElementById("list")
+        fruits.map((fruit)=>{
+            const li = document.createElement("li")
+            li.innerText=fruit
+            list.appendChild(li)
+        })
+    </script>
+</body>
+</html>
